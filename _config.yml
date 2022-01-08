@@ -30,7 +30,7 @@ url: fomula91.github.io
 baseurl: ""
 
 # global author information
-author: fomula
+author: fomula91
 
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 logo: /assets/images/light_bauhaus_logo.png
@@ -42,13 +42,13 @@ permalink: /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: mkie0125@gmail.com
+  email: fomula91@gmail.com
   facebook:
   github: fomula91.github.io
-  instagram: andrewhwanpark
-  linkedin: andrewhwanpark
+  instagram:
+  linkedin:
   rss: # just type anything here for a working RSS icon
-  twitter: andrewhwanpark
+  twitter:
 
 plugins:
   - jekyll-seo-tag
