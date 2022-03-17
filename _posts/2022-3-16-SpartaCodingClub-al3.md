@@ -90,7 +90,7 @@ Link: [파이썬과 자료구조(해시)][pythonhash]
 Link: [해싱, 해시테이블][hashing]
 [hashing]: https://velog.io/@adam2/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94 "hashing"
 
-LinK: [해시 테이블 이해와 구현][hashtable]
+Link: [해시 테이블 이해와 구현][hashtable]
 [hashtable]: https://bcho.tistory.com/1072 "hashtable"
 
 Link: [해시테이블][table]
