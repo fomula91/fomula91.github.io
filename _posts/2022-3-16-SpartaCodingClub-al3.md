@@ -68,9 +68,7 @@ Closed hashing이라고도 한다. chaining과 다르게 버킷의 크기가 지
 
 
 ## `참고자료`
-Link: [연관배열][array]
-
-[array]: https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B4%80_%EB%B0%B0%EC%97%B4 "array"
+[연관배열](https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B4%80_%EB%B0%B0%EC%97%B4)
 
 Link: [연관배열2][array2]
 [array2]: https://en.wikipedia.org/wiki/Associative_array "array2"
