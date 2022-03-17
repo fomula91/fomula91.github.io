@@ -3,10 +3,10 @@ layout: post
 title: 해쉬에 대해서 배운것들...
 ---
 
-해시 테이블은 연관 배열의 구현 형태이며, 해시, 해싱, 버킷, 슬롯, 해싱함수 등을 포함한 개념이다. 
-(해시 테이블 -> 딕셔너리 라고 생각하면 된다.. 즉, 딕셔너리를 내부적으로 파고들면 해시 테이블을 이용한다는 것같다...)
-(딕셔너리는 내부적으로 어떻게 구동되는가에 대한 답은 해시 테이블이라고 할수 있을것 같다.)
-
+해시 테이블은 연관 배열의 구현 형태이며, 해시, 해싱, 버킷, 슬롯, 해싱함수 등을 포함한 개념이다.  
+(해시 테이블 -> 딕셔너리 라고 생각하면 된다.. 즉, 딕셔너리를 내부적으로 파고들면 해시 테이블을 이용한다는 것같다...)  
+(딕셔너리는 내부적으로 어떻게 구동되는가에 대한 답은 해시 테이블이라고 할수 있을것 같다.)  
+  
 ```
 해시 자료구조에서 알아야 되는 용어
 - 해시 테이블hash table
@@ -70,26 +70,18 @@ Closed hashing이라고도 한다. chaining과 다르게 버킷의 크기가 지
 ## `참고자료`
 [연관배열](https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B4%80_%EB%B0%B0%EC%97%B4)
 
-Link: [연관배열2][array2]
-[array2]: https://en.wikipedia.org/wiki/Associative_array "array2"
+[연관배열2](https://en.wikipedia.org/wiki/Associative_array)
 
-Link: [해시테이블][hash]
-[hash]: https://ko.wikipedia.org/wiki/%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94 "hash"
+[해시테이블](https://ko.wikipedia.org/wiki/%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)
 
-Link: [해시 함수의 구현방법][hashstructure]
-[hashstructure]: https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4_%ED%95%B4%EC%8B%B1 "hashstructure"
+[해시 함수의 구현방법](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4_%ED%95%B4%EC%8B%B1)
 
-Link: [해시테이블][hash2]
-[hash2]: https://gamedevlog.tistory.com/38 "hash2"
+[해시테이블](https://gamedevlog.tistory.com/38)
 
-Link: [파이썬과 자료구조(해시)][pythonhash]
-[pythonhash]: https://velog.io/@2seunghye/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%ED%95%B4%EC%89%AC-%ED%85%8C%EC%9D%B4%EB%B8%94 "pythonhash"
+[파이썬과 자료구조(해시)](https://velog.io/@2seunghye/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%ED%95%B4%EC%89%AC-%ED%85%8C%EC%9D%B4%EB%B8%94)
 
-Link: [해싱, 해시테이블][hashing]
-[hashing]: https://velog.io/@adam2/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94 "hashing"
+[해싱, 해시테이블](https://velog.io/@adam2/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94)
 
-Link: [해시 테이블 이해와 구현][hashtable]
-[hashtable]: https://bcho.tistory.com/1072 "hashtable"
+[해시 테이블 이해와 구현](https://bcho.tistory.com/1072)
 
-Link: [해시테이블][table]
-[table]: https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/DataStructure#hash-table "table"
+[해시테이블](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/DataStructure#hash-table)

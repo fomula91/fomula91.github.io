@@ -49,16 +49,12 @@ class Stack:
 - - -
 ### `풀어보면 좋은 문제들...`
 유효한 가로 (leetcode 20.)
-Link: [문제 바로가기]"leet"
-[leet]: https://leetcode.com/problems/valid-parentheses/ "leet"
+[문제 바로가기](https://leetcode.com/problems/valid-parentheses/)
 
 * * *
 #### `찾아본 자료..`
-Link: [스택1][stack1]
-[stack1]: http://dblab.duksung.ac.kr/ds/pdf/Chap04.pdf "stack1"
+[스택1](http://dblab.duksung.ac.kr/ds/pdf/Chap04.pdf)
 
-Link: [자료형-스택][stack2]
-[stack2]: https://questionet.tistory.com/36 "stack2"
+[자료형-스택](https://questionet.tistory.com/36)
 
-Link: [스택에 관해서][stack3]
-[stack3]: https://yoongrammer.tistory.com/45 "stack3"
+[스택에 관해서](https://yoongrammer.tistory.com/45)
