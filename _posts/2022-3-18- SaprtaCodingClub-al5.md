@@ -17,38 +17,38 @@ recursive: 재귀적..
 <details>
 <summary>컴퓨터에서 그래프를 표현하는 방법</summary>
 <div markdown="1">
-아래의 그래프가 있다가 가정한다면
-          2 - 3
+아래의 그래프가 있다가 가정한다면  
+          2 - 3  
           ⎜       
-      0 - 1
+      0 - 1  
+  
+- 인접 행렬에서의 그래프의 표현방법..  
+  0  1  2  3  
+0 X  O  X  X  
+1 O  X  O  X  
+2 X  O  X  O  
+3 X  X  O  X  
 
-- 인접 행렬에서의 그래프의 표현방법..
-  0  1  2  3
-0 X  O  X  X
-1 O  X  O  X
-2 X  O  X  O
-3 X  X  O  X
-
-graph = [
-    [False, True, False, False],
-    [True, False, True, False],
-    [False, True, False, True],
-    [False, False, True, False]
+graph = [  
+    [False, True, False, False],  
+    [True, False, True, False],  
+    [False, True, False, True],  
+    [False, False, True, False]  
 ]
 
-인접 리스트는 모든 노드에 연결된 노드에 대한 정보를 차례대로 다음과 같이 저장합니다.
+인접 리스트는 모든 노드에 연결된 노드에 대한 정보를 차례대로 다음과 같이 저장합니다.  
 
-0 -> 1
-1 -> 0 -> 2
-2 -> 1 -> 3
-3 -> 2
-
-이를 딕셔너리 형태로 표현한다면 다음과 같이 표현됩니다.
-graph = {
-    0: [1],
-    1: [0, 2]
-    2: [1, 3]
-    3: [2]
+0 -> 1  
+1 -> 0 -> 2  
+2 -> 1 -> 3  
+3 -> 2  
+  
+이를 딕셔너리 형태로 표현한다면 다음과 같이 표현됩니다.  
+graph = {  
+    0: [1],  
+    1: [0, 2]  
+    2: [1, 3]  
+    3: [2]  
 }
 </div>
 </details>
@@ -66,6 +66,8 @@ graph = {
  * 순환 호출 이용 (재귀 함수)
  * 명시적 스택 사용 (스택)
 
+수도코드로도 작성해보면 좋을것같다
+
 ```python
 print('이곳에 재귀 함수를 이용한 의사코드를 올리면 좋을것 같네요')
 ```
@@ -75,6 +77,7 @@ print('이곳에 스택을 사용한 의사코드를 올리면 좋을것 같네�
 
 ### `생각해볼것...`
 - 백트래킹이란?
+- 제약충족문제란?
 - 스택 오버플로우?
 - 비선형자료구조에서의? dfs에서의 사이클?
 
@@ -86,5 +89,6 @@ print('이곳에 스택을 사용한 의사코드를 올리면 좋을것 같네�
 [programmers](https://programmers.co.kr/learn/courses/30/parts/12421)
 
 - - -
+### `참고한 것들..`
 [비선형 자료구조](https://goodgid.github.io/DS-Linear-and-NonLinear/)
 [깊이우선탐색_참고](https://www.fun-coding.org/Chapter18-dfs-live.html)
