@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the navbar)
-name: wellbin-blog
+name: wellbing-blog
 
 # Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
 title: wellbing-blog
@@ -44,7 +44,7 @@ permalink: /:year/:month/:day/:title/
 footer-links:
   email: fomula91@gmail.com
   facebook:
-  github: fomula91.github.io
+  github: https://github.com/fomula91
   instagram:
   linkedin:
   rss: # just type anything here for a working RSS icon
