@@ -18,9 +18,11 @@ recursive: 재귀적..
 <summary>컴퓨터에서 그래프를 표현하는 방법</summary>
 <div markdown="1">
 아래의 그래프가 있다가 가정한다면  
-|          2 - 3  
-|          ⎜       
-|      0 - 1  
+```
+          2 - 3  
+          ⎜       
+      0 - 1  
+```
   
 - 인접 행렬에서의 그래프의 표현방법..  
   0  1  2  3  
@@ -129,19 +131,19 @@ print('이곳에 파이썬으로 큐를 이용한BFS를 작성하면 좋을것 �
 * * *
 ### `관련된 문제..`
 * DFS  
-[leetcode_200](https://leetcode.com/problems/number-of-islands/)
-[programmers](https://programmers.co.kr/learn/courses/30/parts/12421)
+[leetcode_200](https://leetcode.com/problems/number-of-islands/)  
+[programmers](https://programmers.co.kr/learn/courses/30/parts/12421)  
 * BFS  
-[backjoon-7576](https://www.acmicpc.net/problem/7576)
-[backjoon-7569](https://www.acmicpc.net/problem/7569)
+[backjoon-7576](https://www.acmicpc.net/problem/7576)  
+[backjoon-7569](https://www.acmicpc.net/problem/7569)  
 
 
 - - -
 ### `참고한 것들..`
-[비선형 자료구조](https://goodgid.github.io/DS-Linear-and-NonLinear/)
-[깊이우선탐색_참고](https://www.fun-coding.org/Chapter18-dfs-live.html)
-[조합](https://velog.io/@unow30/%EC%A1%B0%ED%95%A9combination-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
-[dfs,bfs_정리](https://developer-mac.tistory.com/64)
-[bfs,dbf차이](https://ko.gadget-info.com/difference-between-bfs)
-[dfs,bfs설명](https://medium.com/nerd-for-tech/dfs-bfs-introduction-26a65fca2344)
-[그래프기본용어](https://ratsgo.github.io/data%20structure&algorithm/2017/11/18/graph/)
+[비선형 자료구조](https://goodgid.github.io/DS-Linear-and-NonLinear/)  
+[깊이우선탐색_참고](https://www.fun-coding.org/Chapter18-dfs-live.html)  
+[조합](https://velog.io/@unow30/%EC%A1%B0%ED%95%A9combination-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)  
+[dfs,bfs_정리](https://developer-mac.tistory.com/64)  
+[bfs,dbf차이](https://ko.gadget-info.com/difference-between-bfs)  
+[dfs,bfs설명](https://medium.com/nerd-for-tech/dfs-bfs-introduction-26a65fca2344)  
+[그래프기본용어](https://ratsgo.github.io/data%20structure&algorithm/2017/11/18/graph/)  
