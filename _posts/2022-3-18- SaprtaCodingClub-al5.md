@@ -18,9 +18,9 @@ recursive: 재귀적..
 <summary>컴퓨터에서 그래프를 표현하는 방법</summary>
 <div markdown="1">
 아래의 그래프가 있다가 가정한다면  
-          2 - 3  
-          ⎜       
-      0 - 1  
+|          2 - 3  
+|          ⎜       
+|      0 - 1  
   
 - 인접 행렬에서의 그래프의 표현방법..  
   0  1  2  3  
@@ -75,20 +75,73 @@ print('이곳에 재귀 함수를 이용한 의사코드를 올리면 좋을것 
 print('이곳에 스택을 사용한 의사코드를 올리면 좋을것 같네요')
 ```
 
+
+### `넓이 우선 탐색`
+루트 노드에서 인접한 노드를 먼저 탐색하는 방법으로 시작  
+
+BFS로 효과적으로 문제를 해결할수 있는 경우는 3가지이다.  
+1. 최소비용
+2. 간선의 가중치가 1이다
+3. 정점의 간선의 개수가 적다
+
+두 노드 사이에 최단 경로를 구하고 싶을때 사용한다  
+
+```python
+from collections import deque
+#만일 그래프가 graph = {1:[2,3,4], 2:[5],3:[5],4:[],5:[6,7],6:[],7:[3]}이 주어졌을때
+def myBFS(start):
+    visited = [start]
+    que = deque([start])
+
+    while que:
+        node = que.popleft()
+        for graphKey in graph[node]:
+            if graphKey not in visited:
+                que.append(graphKey)
+                visited.append(graphKey)
+    return visited
+```
+```python
+print('이곳에 파이썬으로 큐를 이용한BFS를 작성하면 좋을것 같네요')
+```
+
+- 일반적으로 사용하는것
+짧은 거리 찾기 — BFS  
+이분그래프 — BFS  
+연결된 모든 요소 찾기 — BFS  
+선택한 노드 찾기 — DFS  
+의사 결정 트리 — DFS  
+그래프의 전체 검색 공간 — DFS  
+무한한 깊이와 한정적인 자식노드 — BFS  
+한정적인 깊이와 무한한 자식노드 — DFS  
+밀집 그래프 — DFS  
+노드보다 간선이 많은 밀집 그래프 — BFS  
+
 ### `생각해볼것...`
 - 백트래킹이란?
 - 제약충족문제란?
 - 스택 오버플로우?
 - 비선형자료구조에서의? dfs에서의 사이클?
+- 재귀함수는 재귀적으로 생각해야하는가?  
+[재귀적생각_참고자료](https://velog.io/@eddy_song/you-can-solve-recursion)
 
 
 * * *
 ### `관련된 문제..`
-
+* DFS  
 [leetcode_200](https://leetcode.com/problems/number-of-islands/)
 [programmers](https://programmers.co.kr/learn/courses/30/parts/12421)
+* BFS  
+[backjoon-7576](https://www.acmicpc.net/problem/7576)
+[backjoon-7569](https://www.acmicpc.net/problem/7569)
+
 
 - - -
 ### `참고한 것들..`
 [비선형 자료구조](https://goodgid.github.io/DS-Linear-and-NonLinear/)
 [깊이우선탐색_참고](https://www.fun-coding.org/Chapter18-dfs-live.html)
+[조합](https://velog.io/@unow30/%EC%A1%B0%ED%95%A9combination-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+[dfs,bfs_정리](https://developer-mac.tistory.com/64)
+[bfs,dbf차이](https://ko.gadget-info.com/difference-between-bfs)
+[dfs,bfs설명](https://medium.com/nerd-for-tech/dfs-bfs-introduction-26a65fca2344)
+[그래프기본용어](https://ratsgo.github.io/data%20structure&algorithm/2017/11/18/graph/)
