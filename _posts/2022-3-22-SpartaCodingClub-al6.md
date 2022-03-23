@@ -5,7 +5,8 @@ title: 이진 트리에 대해서 공부한것들...
 
 트리는 비 선형 자료구조로써 뚜렷한 계층을 가지고 있다. 계층형 트리 구조... 루트값과 부모-자식 관계의 서브트리로 구성된다.
 트리의 속성은 재귀로 정의된 자기 참조 자료구조 쉽게 풀이 하자면 트리의 자식은 트리고 트리의 자식의 자식도 트리구조이다.  
-이는 서브 트리로 구성된다라고 표현할수있다.
+이는 서브 트리로 구성된다라고 표현할수있다.  
+이진트리의 주요 사용이요는 검색, 
 
 트리의 각 명칭
 제일 처음 부분인 루트, 노드간 선으로 이어진 부분을 간선, 노드간의 관계를 부모-자식이라고 하며,
@@ -20,6 +21,30 @@ title: 이진 트리에 대해서 공부한것들...
 트리는 각 노드가 m개 이상의 자식 노드를 가질수 있는데, 이는 다항 트리라고 한다.
 반면, 모든 노드의 차수가 2개 이하일 경우 이진 트리라고 한다.
 다진 트리에 비해 훨씬 간결하고 알고리즘 구현에도 상대적으로 간단하게 처리할수 잇어 트리라고 하면 대부분 이진트리를 사용한다.
+
+```python
+class Node:
+    def __init__(self, value, left=None, right=None):
+        self.value = value
+        self.left = left
+        self.right = right
+class BinaryTree:
+    def makeBinaryTree(self, binaryList:List, index:Int):
+        parent = None
+        if index < len(binaryList):
+            value = list[index]
+            if value is None:
+                return
+        
+        parent = Node(value)
+        parent.left = makeBinaryTree(binaryList, 2 * index + 1)
+        parent.right = makeBinaryTree(binaryList, 2 * index + 2)
+    
+    return parent
+#노드에 대한 정보가 리스트 형태로 주어진다고 가정했을때 부모 노드를 먼저 생성하고, 부모노드에 대한 좌우 값을
+#재귀 함수를 사용해서 생성했습니다. 재귀 함수를 사용한 이유는 같은 코드를 반복해서 사용하기도 하고
+#직관적으로 코드를 작성할수 있어서 재귀함수를 사용할수 있습니다.
+```
 
 이진트리의 유형으로는
 - 정 이진트리 : 모든 노드가 0개 또는 2개의 자식 노드를 가지고 있다.
@@ -44,6 +69,7 @@ title: 이진 트리에 대해서 공부한것들...
 이진트리의 사용목적??? 공부 할것들...
 - 데이터 저장 및 알고리즘 구현 목적으로 사용
 - 탐색 알고리즘 구현, 수식트리, 허프만코딩트리, 이진검색트리, 우선 순위 큐 등등...
+
 - - -
 [이진트리참고자료](https://www.boostcourse.org/cs204/lecture/626047?isDesc=false)
 [이진트리위키](https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%8A%B8%EB%A6%AC)
