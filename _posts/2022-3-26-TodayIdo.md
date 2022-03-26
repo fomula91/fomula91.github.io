@@ -3,7 +3,7 @@ layout: post
 title: TID 정렬에 대해 공부한것들....
 ---
 ### :exclamation: 업데이트가 필요한 항목입니다!
-
+<blockquote>test</blockquote>
 정렬에 대해 공부했습니다.  
 버블 정렬, 선택 정렬, 삽입 정렬..  
 ```python
