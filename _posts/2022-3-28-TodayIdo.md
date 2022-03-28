@@ -15,13 +15,13 @@ i를 1올려서 i 와 j를 서로 교체한다.
 이때, j가 배열을 전부 탐색했다면...  
 i를 1증가시키고 피봇값과 i를 교체한다.  
 
-- 로무토 파티션을 이해하기 위한 레퍼런스 참고
- - [opnegenusIQ](https://iq.opengenus.org/lomuto-partition-scheme/)
- - [interview kickstart](https://www.interviewkickstart.com/learn/hoares-vs-lomuto-partition-scheme-quicksort)
- - [tistiory](https://ldgeao99.tistory.com/376)
- - [나중에참고하면좋을듯](https://seokdev.site/238)
- 
-퀵소트의 구현
+* 로무토 파티션을 이해하기 위한 레퍼런스 참고
+    - [opnegenusIQ](https://iq.opengenus.org/lomuto-partition-scheme/)
+    - [interview kickstart](https://www.interviewkickstart.com/learn/hoares-vs-lomuto-partition-scheme-quicksort)
+    - [tistiory](https://ldgeao99.tistory.com/376)
+    - [나중에참고하면좋을듯](https://seokdev.site/238)
+
+로무토 파티션을 이용한 퀵소트 구현
 ```python
 def quickSort(lst, start, end):
     def partition(part, ps, pe):
