@@ -41,3 +41,9 @@ title: TID api적용후기
 그리고 자바스크립트 `fetch()` 함수와 axios 플러그인에 대해서 좀 공부가 되었던 시간이었습니다.
 ~callback func, promise, async-await 포함해서...~
 아직 api를 받아오기까지 개념에 대해 공부하고 알아가는 과정이 2일이나 걸리긴 했지만, 그래도 로컬환경에서라도 구현 성공해서 크게 만족하고 있습니다.
+
+api를 받아오면서 느끼는 점은 이렇게 받아오는게 어렵게 구성되있고,  
+원하는 데이터가 없다면... 크롤링으로 받아오는게 더 현명하다는 생각이 들었습니다....
+
+[axios와fetch](https://velog.io/@shin6403/React-axios%EB%9E%80-feat.-Fetch-API)
+[네이버api받아오기참고](https://msyu1207.tistory.com/entry/React%EB%A1%9C-%EC%98%81%ED%99%94-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EA%B2%80%EC%83%89%ED%95%B4%EB%B3%B4%EC%9E%90-%EB%91%90%EB%B2%88%EC%A7%B8-%EB%84%A4%EC%9D%B4%EB%B2%84-API-%EC%82%AC%EC%9A%A9-CORS-%EC%84%A4%EC%A0%95-%ED%95%98%EA%B8%B0)
