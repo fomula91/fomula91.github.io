@@ -60,7 +60,8 @@ let result = [...num, num2]
 
 > 알아볼것 => 묵시적형변환
 
-### 결론
+#### styed-components
 
-[axios와fetch](https://velog.io/@shin6403/React-axios%EB%9E%80-feat.-Fetch-API)
-[네이버api받아오기참고](https://msyu1207.tistory.com/entry/React%EB%A1%9C-%EC%98%81%ED%99%94-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EA%B2%80%EC%83%89%ED%95%B4%EB%B3%B4%EC%9E%90-%EB%91%90%EB%B2%88%EC%A7%B8-%EB%84%A4%EC%9D%B4%EB%B2%84-API-%EC%82%AC%EC%9A%A9-CORS-%EC%84%A4%EC%A0%95-%ED%95%98%EA%B8%B0)
+css-in-javascript 라이브러리 중 하나로 컴포넌트에 직접 스타일을 적용하는 방식이다.  
+scss설치없이 scss문법을 사용할수 있다.
+작성이 간편하다
