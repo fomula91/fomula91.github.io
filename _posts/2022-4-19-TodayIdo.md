@@ -20,7 +20,7 @@ title: TIL 강의를 들으면서 생긴 오류 해결 과정
 
 리덕스의 미들웨어 함수 user.js -> const loginAction 부분에서
 
-```javascript
+```javascri pt
 const loginAction = (user) => {
   console.log("1");
   console.log("2");
