@@ -5,6 +5,7 @@ title: TIL input을 이용한 fileReader 사용방법
 
 [참고](https://www.zerocho.com/category/HTML&DOM/post/592827558653d6001804a0a5)  
 [참고2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=horajjan&logNo=220463053828)
+[참고3](https://developer.mozilla.org/ko/docs/Web/API/FileReader)
 
 이미지 파일을 스토리지에 저장하기 위해서 사용하는 fileReader의 사용법에 대해 간단하게 알아보았다.
 
