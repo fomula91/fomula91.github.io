@@ -4,7 +4,7 @@ title: TIL input을 이용한 fileReader 사용방법
 ---
 
 [참고](https://www.zerocho.com/category/HTML&DOM/post/592827558653d6001804a0a5)  
-[참고2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=horajjan&logNo=220463053828)
+[참고2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=horajjan&logNo=220463053828)  
 [참고3](https://developer.mozilla.org/ko/docs/Web/API/FileReader)
 
 이미지 파일을 스토리지에 저장하기 위해서 사용하는 fileReader의 사용법에 대해 간단하게 알아보았다.
@@ -23,7 +23,8 @@ return (
 );
 ```
 
-리액트에서 input태그를 생성하고 useRef로 선택된 파일의 정보를 담아두었다.
+리액트에서 input태그를 생성하고 useRef로 선택된 파일의 정보를 담아두었다.  
+base64를 이용하면 서버의 스토리지를 사용하지 않고 데이터베이스에 이미지 파일을 저장할수 있다.
 
 ```javascript
 const selectFile = (e) => {
