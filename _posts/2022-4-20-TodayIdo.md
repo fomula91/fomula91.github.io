@@ -55,3 +55,43 @@ function App() {
 
 app.js에서 Browser Router를 ConnectedRouter로 대체 하였더니
 middlewares에서 history를 이용한 페이지 이동이 구현되었습니다.
+
+---
+
+`추가사항` 2022.4.26
+
+react 18버전에선 ConnectedRouter가 제대로 동작하지 않는것 같다.  
+똑같이 구성했지만, 동일하게 url만 바뀌고 페이지 새로고침이 되질 않았다.  
+그래서 react 17.0.2 버전으로 다운그레이드하여 패키지를 적용해보니 작동이 잘되었다.
+
+```javascript
+// REACT 18
+import React from "react";
+import ReactDOM from "react-dom/client";
+// some imports .....
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>
+);
+```
+
+```javascript
+// REACT 17
+import React from "react";
+import ReactDOM from "react-dom";
+// some imports .....
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+```
