@@ -49,3 +49,10 @@ outerFN은 innerFN을 반환하고 생을 마감하였는데도, outerFN의 변�
 이는 클로저의 특징으로 innerFN이 outerFN의 스코프도 체인으로 저장하고 있어 값이 저장하여 사용한다고 볼수 있다.
 
 즉, MDN의 설명을 기준으로 한다면 결국에는 클로저란 호출된 함수와 그 함수의 스코프체인의 조합으로, 어떤 함수의 내부 함수가 외부 함수를 참조하는 것을 의미한다.
+
+---
+
+- [참조1](https://ljtaek2.tistory.com/140)
+- [참조2](https://developer-alle.tistory.com/369)
+- [참조3](https://poiemaweb.com/js-closure)
+- [참조4](https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures)
