@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 호이스팅이란 무엇인가?
+title: 호이스팅이란 무엇인가?, post vs put
 ---
 
 호이스팅이란 무엇인가?
@@ -25,3 +25,14 @@ var로 선언한 변수의 경우 호이스팅 시 undefined로 변수를 초기
 [참고 2](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)  
 [참고 3](https://www.youtube.com/watch?v=SBTyD_fLZnE)  
 [참고 4](https://gmlwjd9405.github.io/2019/04/22/javascript-hoisting.html)
+
+# REST API에서 post와 put의 차이점은 무엇인가?
+
+idempotent, 멱등성이라고 하는 부분에서 차이가 발생한다.
+post와 put 두 요청을 반복하게 되면 post의 경우 서버에서는 매번 다른 리소스를 전달하게 되지만 put 요청의 경우 매 요청마다 같은 리소스를 전달하게 된다.(물론 내용은 변경된다.)
+
+---
+
+[참고1](https://www.w3schools.com/tags/ref_httpmethods.asp)  
+[참고2](https://velog.io/@53_eddy_jo/RESTful%ED%95%9C-%EC%84%B8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-POST%EC%99%80-PUT%EC%9D%98-%EC%B0%A8%EC%9D%B4-%EA%B1%B0%EA%B8%B0%EC%97%90-FETCH%EA%B9%8C%EC%A7%80)  
+[참고3](https://velog.io/@dion/HTTP-%EB%A9%94%EC%86%8C%EB%93%9C%EC%9D%98-%EB%A9%B1%EB%93%B1%EC%84%B1-%EA%B7%B8%EA%B2%8C-%EB%AD%94%EB%8D%B0)
